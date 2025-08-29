@@ -6,20 +6,20 @@ This application allows users to create accounts, log in, and manage their passw
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔐 **AES Encryption** of all user credentials using BouncyCastle  
-- 👥 **Role-based Access Control**: Admin and Standard users  
-- 🧾 **User Account Management**: Sign up and log in securely  
-- 📁 **Add / View / Delete Credentials**  
-- 🔎 **Filter Passwords by Category**  
-- 🔄 **Strong Password Generator**  
-- 🗄️ **Persistent Storage** with MySQL backend  
-- 🧠 **Object-Oriented Design**
+- **AES Encryption** of all user credentials using BouncyCastle  
+- **Role-based Access Control**: Admin and Standard users  
+- **User Account Management**: Sign up and log in securely  
+- **Add / View / Delete Credentials**  
+- **Filter Passwords by Category**  
+- **Strong Password Generator**  
+- **Persistent Storage** with MySQL backend  
+- **Object-Oriented Design**
 
 ---
 
-## 🧠 OOP Principles
+## OOP Principles
 
 - **Abstraction**: Base `User` class defines shared behavior for `AdminUser` and `StandardUser`
 - **Encapsulation**: Sensitive data and encryption logic contained within dedicated methods
@@ -28,7 +28,7 @@ This application allows users to create accounts, log in, and manage their passw
 
 ---
 
-## 🧩 Key Classes
+## Key Classes
 
 | Class                  | Responsibility                                                  |
 |------------------------|------------------------------------------------------------------|
@@ -45,15 +45,15 @@ This application allows users to create accounts, log in, and manage their passw
 
 ---
 
-## 🧱 Design Patterns
+## Design Patterns
 
-- 🏭 **Factory Pattern**: Used in `ValidateUser()` to instantiate user types based on access level  
-- 🧠 **Strategy Pattern**: Encryption logic abstracted via `IEncryptable` interface  
-- 🧰 **Façade Pattern**: `PasswordVault` class simplifies access to credential management and DB operations
+- **Factory Pattern**: Used in `ValidateUser()` to instantiate user types based on access level  
+- **Strategy Pattern**: Encryption logic abstracted via `IEncryptable` interface  
+- **Façade Pattern**: `PasswordVault` class simplifies access to credential management and DB operations
 
 ---
 
-## 📈 Enhancements 
+## Enhancements 
 
 - Integrated **MySQL** database for persistent user and credential storage
 - Applied **AES encryption** for secure password handling
@@ -63,9 +63,9 @@ This application allows users to create accounts, log in, and manage their passw
 
 ---
 
-## 🖥️ Usage
+## Usage
 
-### ✅ Prerequisites
+### Prerequisites
 
 - [.NET 6 SDK](https://dotnet.microsoft.com/download)
 - [MySQL Server](https://dev.mysql.com/downloads/)
@@ -73,7 +73,7 @@ This application allows users to create accounts, log in, and manage their passw
 
 ---
 
-### ▶️ Running the Program
+### Running the Program
 
 1. Clone the repository:
    ```bash
